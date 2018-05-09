@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Crypto_Prix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apR-0e-rid">
+                                <rect key="frame" x="16" y="182" width="343" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="jgO-bO-H3E"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJb-Md-ySR">
+                                <rect key="frame" x="16" y="105" width="343" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="6r3-AV-bPv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnc-B6-MFX">
+                                <rect key="frame" x="16" y="505" width="343" height="142"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="pta-04-fVU"/>
+                                </constraints>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215686274508" green="0.16078431372549021" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="apR-0e-rid" firstAttribute="trailing" secondItem="aJb-Md-ySR" secondAttribute="trailing" id="A9E-Lq-13C"/>
+                            <constraint firstItem="aJb-Md-ySR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="85" id="Byq-BI-CbJ"/>
+                            <constraint firstItem="aJb-Md-ySR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Rvs-KU-ypI"/>
+                            <constraint firstItem="apR-0e-rid" firstAttribute="top" secondItem="aJb-Md-ySR" secondAttribute="bottom" constant="13" id="Sww-4e-xQH"/>
+                            <constraint firstItem="aJb-Md-ySR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fwU-fV-Tph"/>
+                            <constraint firstItem="aJb-Md-ySR" firstAttribute="leading" secondItem="bnc-B6-MFX" secondAttribute="leading" id="sIZ-zf-yDO"/>
+                            <constraint firstAttribute="bottom" secondItem="bnc-B6-MFX" secondAttribute="bottom" constant="20" symbolic="YES" id="uw8-e5-EJU"/>
+                            <constraint firstItem="aJb-Md-ySR" firstAttribute="trailing" secondItem="bnc-B6-MFX" secondAttribute="trailing" id="wHu-Qo-fIt"/>
+                            <constraint firstItem="apR-0e-rid" firstAttribute="leading" secondItem="aJb-Md-ySR" secondAttribute="leading" id="zgT-ti-ylG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="coinLabel" destination="aJb-Md-ySR" id="tXe-e3-Mg0"/>
+                        <outlet property="coinPicker" destination="bnc-B6-MFX" id="85J-za-vMH"/>
+                        <outlet property="priceLabel" destination="apR-0e-rid" id="Zdd-6F-gZD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="130.88455772113943"/>
+        </scene>
+    </scenes>
+</document>

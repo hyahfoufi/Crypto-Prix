@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4668DF5B20A1B93800EC73B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668DF5A20A1B93800EC73B3 /* AppDelegate.swift */; };
+		4668DF5D20A1B93800EC73B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4668DF5C20A1B93800EC73B3 /* ViewController.swift */; };
+		4668DF6020A1B93800EC73B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4668DF5E20A1B93800EC73B3 /* Main.storyboard */; };
+		4668DF6220A1B93C00EC73B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4668DF6120A1B93C00EC73B3 /* Assets.xcassets */; };
+		4668DF6520A1B93C00EC73B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4668DF6320A1B93C00EC73B3 /* LaunchScreen.storyboard */; };
+		A043D45F0F4C89C659152C97 /* Pods_Crypto_Prix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB80784AA940C1DF1B782451 /* Pods_Crypto_Prix.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33D1BAA679C10BAD93DD26AB /* Pods-Crypto Prix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Prix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Prix/Pods-Crypto Prix.debug.xcconfig"; sourceTree = "<group>"; };
+		4668DF5720A1B93800EC73B3 /* Crypto Prix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Prix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4668DF5A20A1B93800EC73B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4668DF5C20A1B93800EC73B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4668DF5F20A1B93800EC73B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4668DF6120A1B93C00EC73B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4668DF6420A1B93C00EC73B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4668DF6620A1B93C00EC73B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB80784AA940C1DF1B782451 /* Pods_Crypto_Prix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Prix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F3F632C5C35B29EDCF12E7 /* Pods-Crypto Prix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Prix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Prix/Pods-Crypto Prix.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4668DF5420A1B93800EC73B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A043D45F0F4C89C659152C97 /* Pods_Crypto_Prix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4668DF4E20A1B93800EC73B3 = {
+			isa = PBXGroup;
+			children = (
+				4668DF5920A1B93800EC73B3 /* Crypto Prix */,
+				4668DF5820A1B93800EC73B3 /* Products */,
+				CA4790C2BE3B01E51F65D92E /* Pods */,
+				9ECDCCF2B7F6E4746DE0183A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4668DF5820A1B93800EC73B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4668DF5720A1B93800EC73B3 /* Crypto Prix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4668DF5920A1B93800EC73B3 /* Crypto Prix */ = {
+			isa = PBXGroup;
+			children = (
+				4668DF5A20A1B93800EC73B3 /* AppDelegate.swift */,
+				4668DF5C20A1B93800EC73B3 /* ViewController.swift */,
+				4668DF5E20A1B93800EC73B3 /* Main.storyboard */,
+				4668DF6120A1B93C00EC73B3 /* Assets.xcassets */,
+				4668DF6320A1B93C00EC73B3 /* LaunchScreen.storyboard */,
+				4668DF6620A1B93C00EC73B3 /* Info.plist */,
+			);
+			path = "Crypto Prix";
+			sourceTree = "<group>";
+		};
+		9ECDCCF2B7F6E4746DE0183A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB80784AA940C1DF1B782451 /* Pods_Crypto_Prix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA4790C2BE3B01E51F65D92E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D1BAA679C10BAD93DD26AB /* Pods-Crypto Prix.debug.xcconfig */,
+				E1F3F632C5C35B29EDCF12E7 /* Pods-Crypto Prix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4668DF5620A1B93800EC73B3 /* Crypto Prix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4668DF6920A1B93C00EC73B3 /* Build configuration list for PBXNativeTarget "Crypto Prix" */;
+			buildPhases = (
+				84A6195219D6B4B42945B00C /* [CP] Check Pods Manifest.lock */,
+				4668DF5320A1B93800EC73B3 /* Sources */,
+				4668DF5420A1B93800EC73B3 /* Frameworks */,
+				4668DF5520A1B93800EC73B3 /* Resources */,
+				A186D6E5D8E1DC0FB6D728D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crypto Prix";
+			productName = "Crypto Prix";
+			productReference = 4668DF5720A1B93800EC73B3 /* Crypto Prix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4668DF4F20A1B93800EC73B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Le Canuck";
+				TargetAttributes = {
+					4668DF5620A1B93800EC73B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4668DF5220A1B93800EC73B3 /* Build configuration list for PBXProject "Crypto Prix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4668DF4E20A1B93800EC73B3;
+			productRefGroup = 4668DF5820A1B93800EC73B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4668DF5620A1B93800EC73B3 /* Crypto Prix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4668DF5520A1B93800EC73B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4668DF6520A1B93C00EC73B3 /* LaunchScreen.storyboard in Resources */,
+				4668DF6220A1B93C00EC73B3 /* Assets.xcassets in Resources */,
+				4668DF6020A1B93800EC73B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84A6195219D6B4B42945B00C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Prix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A186D6E5D8E1DC0FB6D728D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Prix/Pods-Crypto Prix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Prix/Pods-Crypto Prix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4668DF5320A1B93800EC73B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4668DF5D20A1B93800EC73B3 /* ViewController.swift in Sources */,
+				4668DF5B20A1B93800EC73B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4668DF5E20A1B93800EC73B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4668DF5F20A1B93800EC73B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4668DF6320A1B93C00EC73B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4668DF6420A1B93C00EC73B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4668DF6720A1B93C00EC73B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4668DF6820A1B93C00EC73B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4668DF6A20A1B93C00EC73B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D1BAA679C10BAD93DD26AB /* Pods-Crypto Prix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ73AP65K5;
+				INFOPLIST_FILE = "Crypto Prix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lecanuck.Crypto-Prix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4668DF6B20A1B93C00EC73B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F3F632C5C35B29EDCF12E7 /* Pods-Crypto Prix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ73AP65K5;
+				INFOPLIST_FILE = "Crypto Prix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lecanuck.Crypto-Prix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4668DF5220A1B93800EC73B3 /* Build configuration list for PBXProject "Crypto Prix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4668DF6720A1B93C00EC73B3 /* Debug */,
+				4668DF6820A1B93C00EC73B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4668DF6920A1B93C00EC73B3 /* Build configuration list for PBXNativeTarget "Crypto Prix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4668DF6A20A1B93C00EC73B3 /* Debug */,
+				4668DF6B20A1B93C00EC73B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4668DF4F20A1B93800EC73B3 /* Project object */;
+}
