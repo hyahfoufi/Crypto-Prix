@@ -5,3 +5,10 @@
 `Crypto Prix` is an IOS app that displays the price of Bitcoin and a few select altcoins.
 
 ![](Screenshot.png)
+
+# Requirements
+
+If you would like to clone this project, please be sure to have [CocoaPods](https://cocoapods.org) installed and then run:
+
+`pod install`
+
